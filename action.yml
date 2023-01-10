@@ -1,0 +1,9 @@
+runs:
+  using: "node16"
+  main: "entrypoint.sh"
+
+name: "Vercel Deploy Wait and Get URL"
+description: "Waits for a Vercel deployment to complete and retrieves the preview URL of the deployed branch."
+outputs:
+  preview_url:
+    description: "The URL of the preview deployment."
